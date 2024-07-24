@@ -1,41 +1,41 @@
 /* Specific Fonts from GoogleFont */
+/* Specific font class area */
 
-/* Montserrat font
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900 
-*/
-
-.montserrat-std-font {
+.montserrat-std-font, h1 { 
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.manrope-std-font {
+.manrope-std-font, p, li, a {
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
 
-/* End of font area */
+/* End of specific font area */
+
 
 a {
     color: black;
     font-size: 2em;
+    text-decoration: none;
 }
 
 h1 {
-    color: black;
-    font-size: 4em;
-    text-align: center;
+    color: #A5B4FC;
+    font-size: 3.5em;
 }
 
 p {
     color: black;
-    font-size: 1.5em;
-    text-align: justify;
+    font-size: 1.1em;
+}
+
+li{
+    font-size: 1em;
 }
 
 .keywords {
