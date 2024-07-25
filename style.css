@@ -17,6 +17,9 @@
 
 /* --- End of specific font area --- */
 
+body{
+    background-color: #1F2039;
+}
 
 p {
     color: black;
@@ -36,6 +39,10 @@ a {
 
 li {
     font-size: 1em;
+}
+
+.baniere {
+    background-color: white;
 }
 
 .keywords {
