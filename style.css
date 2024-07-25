@@ -19,9 +19,6 @@
 
 body{
     background-color: #1F2039;
-}
-
-p, li, h2 {
     color: #F9F8FF;
 }
 
@@ -50,4 +47,9 @@ li {
 
 .keywords {
     color: #A5B4FC;
+}
+
+.call2action {
+    background: linear-gradient(to right, #8E86B5, #ACAEED);
+    color: white;
 }
