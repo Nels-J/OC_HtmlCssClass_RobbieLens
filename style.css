@@ -17,7 +17,7 @@
 
 /* --- End of specific font area --- */
 
-body{
+body {
     background-color: #1F2039;
     color: #F9F8FF;
 }
@@ -54,4 +54,9 @@ li {
     color: white;
     border-radius: 50px;
     font-size: 1em;
+}
+
+.aboutsection {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
 }
