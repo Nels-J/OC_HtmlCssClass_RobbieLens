@@ -52,4 +52,6 @@ li {
 .call2action {
     background: linear-gradient(to right, #8E86B5, #ACAEED);
     color: white;
+    border-radius: 50px;
+    font-size: 1em;
 }
