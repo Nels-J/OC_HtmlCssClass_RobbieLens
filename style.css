@@ -21,8 +21,11 @@ body{
     background-color: #1F2039;
 }
 
+p, li, h2 {
+    color: #F9F8FF;
+}
+
 p {
-    color: black;
     font-size: 1.1em;
 }
 
