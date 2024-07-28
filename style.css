@@ -37,6 +37,10 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 li {
     font-size: 1em;
 }
@@ -56,7 +60,16 @@ li {
     font-size: 1em;
 }
 
+a.call2action:hover{
+    text-decoration: none;
+    background: linear-gradient(to right, #696484, #8788BA );
+}
+
 .aboutsection {
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
+}
+
+a.icons:hover{
+    opacity: 0.5;
 }
