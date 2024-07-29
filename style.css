@@ -98,3 +98,9 @@ a.icons:hover{
 .carre-contenu,ul {
     margin-top: 30px;
 }
+
+.flex-nav-container,
+.flex-footer-container {
+    display: flex;
+    justify-content: space-between;
+}
