@@ -104,3 +104,15 @@ a.icons:hover{
     display: flex;
     justify-content: space-between;
 }
+
+.flex-project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.flex-project-container, div {
+        background-color: white;
+        padding: 80px;
+}
