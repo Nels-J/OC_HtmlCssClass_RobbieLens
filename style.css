@@ -22,7 +22,8 @@ body {
     color: #F9F8FF;
 }
 
-p {
+p,
+li {
     font-size: 1.1em;
 }
 
@@ -39,10 +40,6 @@ a {
 
 a:hover{
     text-decoration: underline;
-}
-
-li {
-    font-size: 1em;
 }
 
 .baniere {
