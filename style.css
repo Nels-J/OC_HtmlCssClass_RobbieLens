@@ -34,7 +34,7 @@ footer {
 section {
     padding: 50px 20px 50px 20px;
   }
-  
+
 p,
 li {
     font-size: 1.1em;
@@ -75,7 +75,8 @@ a.call2action:hover{
     background: linear-gradient(to right, #696484, #8788BA );
 }
 
-.aboutsection {
+.carre-contenu {
+    padding: 50px;
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
 }
