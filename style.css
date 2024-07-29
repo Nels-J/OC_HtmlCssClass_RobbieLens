@@ -25,6 +25,7 @@ body {
     background-color: #1F2039;
     color: #F9F8FF;
 }
+
 header,
 footer {
     background-color: white;
@@ -83,4 +84,9 @@ a.call2action:hover{
 
 a.icons:hover{
     opacity: 0.5;
+}
+
+.a-propos {
+    width: 50%; /*si pas défini, margin auto sans effet */
+    margin: auto;
 }
