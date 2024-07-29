@@ -1,6 +1,10 @@
+/* --- Reset default browser CSS rules --- */
+* {
+    margin: 0; 
+}
+
 /* Specific Fonts from GoogleFont */
 /* --- Font class area --- */
-
 .montserrat-std-font {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -14,12 +18,17 @@
     font-weight: 400;
     font-style: normal;
 }
-
 /* --- End of specific font area --- */
+
 
 body {
     background-color: #1F2039;
     color: #F9F8FF;
+}
+header,
+footer {
+    background-color: white;
+    padding: 20px 50px 20px 50px;
 }
 
 p,
