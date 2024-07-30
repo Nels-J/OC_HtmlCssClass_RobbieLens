@@ -3,26 +3,9 @@
     margin: 0; 
 }
 
-/* Specific Fonts from GoogleFont */
-/* --- Font class area --- */
-.montserrat-std-font {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.manrope-std-font {
-    font-family: "Manrope", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-/* --- End of specific font area --- */
-
-
 body {
     background-color: #1F2039;
+    font-family: "Manrope", sans-serif;
     color: #F9F8FF;
 }
 
@@ -42,6 +25,7 @@ li {
 }
 
 h1 {
+    font-family: "Montserrat", sans-serif;
     color: #A5B4FC;
     font-size: 3.5em;
 }
