@@ -56,10 +56,6 @@ a:hover{
     text-decoration: underline;
 }
 
-.baniere {
-    background-color: white;
-}
-
 .keywords {
     color: #A5B4FC;
 }
@@ -112,7 +108,7 @@ a.icons:hover{
     gap: 15px;
 }
 
-.flex-project-container, div {
+.flex-project-container div {
         background-color: white;
         padding: 80px;
 }
