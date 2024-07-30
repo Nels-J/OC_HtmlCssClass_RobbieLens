@@ -6,6 +6,7 @@
 body {
     background-color: #1F2039;
     font-family: "Manrope", sans-serif;
+    font-size: 1em;
     color: #F9F8FF;
 }
 
@@ -19,29 +20,23 @@ section {
     padding: 50px 20px 50px 20px;
 }
 
-p,
-li {
+p {
     font-size: 1.1em;
 }
 
 h1 {
     font-family: "Montserrat", sans-serif;
-    color: #A5B4FC;
     font-size: 3.5em;
+    color: #A5B4FC;
 }
 
 a {
     color: #242424;
-    font-size: 2em;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-.keywords {
-    color: #A5B4FC;
 }
 
 .cta {
@@ -99,4 +94,15 @@ ul {
 .flex-project-container div {
     background-color: white;
     padding: 80px;
+}
+
+.index-introduction {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 900px;
+}
+
+.index-introduction .keywords {
+    color: #A5B4FC;
 }
