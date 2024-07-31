@@ -44,7 +44,7 @@ a:hover {
     color: white;
     border-radius: 50px;
     font-size: 1em;
-    padding: 15px;
+    padding: 20px 30px;
 }
 
 a.cta:hover {
@@ -71,10 +71,10 @@ a.icons:hover {
     margin-top: 30px;                   /*P3C2*/
 }
 
-.flex-nav-container,
-.flex-footer-container {
-    display: flex;
-    justify-content: space-between;
+.flex-nav-container,                    
+.flex-footer-container {                    
+    display: flex;                       /*P3C3*/
+    justify-content: space-between;      /*P3C3*/
 }
 
 .flex-project-container {
@@ -89,8 +89,8 @@ a.icons:hover {
     padding: 80px;
 }
 
-.index-introduction {               /*P3C2*/
-    display: flex;
+.index-introduction {                   
+    display: flex;                         /*P3C3*/
     flex-direction: row;
     margin: auto;
     max-width: 900px;
@@ -99,3 +99,15 @@ a.icons:hover {
 .index-introduction .keywords {
     color: #A5B4FC;
 }
+
+.index-introduction, h1 {
+    margin-bottom: 15px;                 /*P3C3*/
+}
+
+.index-introduction p {
+    margin-bottom: 30px;                 /*P3C3*/
+}
+
+.index-introduction div {
+    padding-right: 80px;                /*P3C3*/
+  }
