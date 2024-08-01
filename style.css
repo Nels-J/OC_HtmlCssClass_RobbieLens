@@ -13,11 +13,13 @@ body {
 header,
 footer {
     background-color: white;
-    padding: 20px 50px 20px 50px;       /*P3C2*/
+    padding: 20px 50px 20px 50px;
+    /*P3C2*/
 }
 
 section {
-    padding: 80px;                      /*P3C2*/
+    padding: 80px;
+    /*P3C2*/
 }
 
 p {
@@ -53,7 +55,8 @@ a.cta:hover {
 }
 
 .carre-contenu {
-    padding: 50px;                       /*P3C2*/
+    padding: 50px;
+    /*P3C2*/
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
 }
@@ -62,35 +65,30 @@ a.icons:hover {
     opacity: 0.5;
 }
 
-.a-propos {                             
-    width: 50%;    /*P3C2 - si width pas défini, margin auto sans effet */
-    margin: auto;                       /*P3C2*/
+.a-propos {
+    width: 50%;
+    /*P3C2 - si width pas défini, margin auto sans effet */
+    margin: auto;
+    /*P3C2*/
 }
 
-.carre-contenu h2, ul {
-    margin-top: 30px;                   /*P3C2*/
+.carre-contenu h2,
+ul {
+    margin-top: 30px;
+    /*P3C2*/
 }
 
-.flex-nav-container,                    
-.flex-footer-container {                    
-    display: flex;                       /*P3C3*/
-    justify-content: space-between;      /*P3C3*/
-}
-
-.flex-project-container {
+.flex-nav-container,
+.flex-footer-container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
+    /*P3C3*/
+    justify-content: space-between;
+    /*P3C3*/
 }
 
-.flex-project-container div {
-    background-color: white;
-    padding: 80px;
-}
-
-.index-introduction {                   
-    display: flex;                         /*P3C3*/
+.index-introduction {
+    display: flex;
+    /*P3C3*/
     flex-direction: row;
     margin: auto;
     max-width: 900px;
@@ -100,14 +98,36 @@ a.icons:hover {
     color: #A5B4FC;
 }
 
-.index-introduction, h1 {
-    margin-bottom: 15px;                 /*P3C3*/
+.index-introduction,
+h1 {
+    margin-bottom: 15px;
+    /*P3C3*/
 }
 
 .index-introduction p {
-    margin-bottom: 30px;                 /*P3C3*/
+    margin-bottom: 30px;
+    /*P3C3*/
 }
 
 .index-introduction div {
-    padding-right: 80px;                /*P3C3*/
-  }
+    padding-right: 80px;
+    /*P3C3*/
+}
+
+.index-last_project {
+    background-color: white;
+    color: #242424;
+}
+
+.index-last_project h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.index-last_project div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
