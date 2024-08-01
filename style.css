@@ -80,10 +80,13 @@ ul {
 
 .flex-nav-container,
 .flex-footer-container {
-    display: flex;
-    /*P3C3*/
-    justify-content: space-between;
-    /*P3C3*/
+    display: flex;                      /*P3C3*/
+    justify-content: space-between;     /*P3C3*/
+    align-items: center;
+}
+
+.flex-nav-container a{
+    margin-left: 30px;
 }
 
 .index-introduction {
