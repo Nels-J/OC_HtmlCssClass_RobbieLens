@@ -13,13 +13,11 @@ body {
 header,
 footer {
     background-color: white;
-    padding: 20px 50px 20px 50px;
-    /*P3C2*/
+    padding: 20px 50px 20px 50px;    /*P3C2*/
 }
 
 section {
-    padding: 80px;
-    /*P3C2*/
+    padding: 80px;    /*P3C2*/
 }
 
 p {
@@ -42,10 +40,10 @@ a:hover {
 }
 
 .cta {
+    display: inline-block;
     background: linear-gradient(#8E86B5, #ACAEED);
     color: white;
     border-radius: 50px;
-    font-size: 1em;
     padding: 20px 30px;
 }
 
@@ -55,8 +53,7 @@ a.cta:hover {
 }
 
 .carre-contenu {
-    padding: 50px;
-    /*P3C2*/
+    padding: 50px;    /*P3C2*/
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
 }
