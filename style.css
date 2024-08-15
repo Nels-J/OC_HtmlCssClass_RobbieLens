@@ -184,9 +184,7 @@ section {
   object-fit: cover;  /* https://developer.mozilla.org/fr/docs/Web/CSS/object-fit */
 }
 
-/*P3C5 add here the css required for pictures hover on the portfolio page*/
-
-.lien-image {
+.image-link {
     position: relative;
 }
 
@@ -205,6 +203,6 @@ section {
     opacity: 0.7;
 }
 
-.lien-image:hover .image-hover {
+.image-link:hover .image-hover {
     display: flex;
 }
