@@ -1,0 +1,44 @@
+.index-last_project {
+    background-color: white;
+    padding: 8Opx;
+}
+
+.index-last_project h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 550;
+}
+
+.index-last_project div {
+    display: flex;
+    flex-direction: row;  /* Not required - default properties - just easier to read */
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.index-introduction {
+    display: flex;    /*P3C3*/
+    flex-direction: row;  /* Not required - default properties - just easier to read */
+    width: 60%;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.index-introduction .keywords {
+    color: #A5B4FC;
+    font-style: normal;
+}
+
+.index-introduction h1 {
+    margin-bottom: 15px;    /*P3C3*/
+}
+
+.index-introduction p {
+    margin-bottom: 30px;    /*P3C3*/
+}
+
+.index-introduction div {
+    padding-right: 80px;    /*P3C3*/
+}

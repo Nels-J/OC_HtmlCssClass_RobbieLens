@@ -15,11 +15,6 @@ a {
     text-decoration: none;
 }
 
-/* em {
-    color: #a5b4fc;
-    font-style: normal;
-} */
-
 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 480;
@@ -40,7 +35,7 @@ li {
 header,
 footer {
     background-color: white;
-    padding: 20px 50px;    /*P3C2*/
+    padding: 20px 50px;
 }
 
 .cta {
@@ -68,6 +63,26 @@ a.icons:hover {
     opacity: 0.5;
 }
 
+section {
+        padding: 80px;
+    }
+
+    .flex-nav-container,
+    .flex-footer-container {
+        display: flex;                      /*P3C3*/
+        flex-direction: row;  /* Not required - default properties - just easier to read */
+        justify-content: space-between;     /*P3C3*/
+        align-items: center;
+    }
+    
+    .flex-nav-container a{
+        margin-left: 30px;
+    }
+
+/*
+* Split *
+*/
+
 .carre-contenu {
     padding: 50px;    /*P3C2*/
     width: 50%;
@@ -75,6 +90,7 @@ a.icons:hover {
     border-bottom: 1px solid #8e86b5;
     margin-bottom: 80px;
 }
+
 
 .carre-contenu h2 {
     margin-top: 30px;    /*P3C2*/
@@ -88,71 +104,11 @@ a.icons:hover {
     text-align: center;
 } */
 
-section {
-    padding: 80px;    /*P3C2*/
-}
-
 .a-propos {
-    width: 50%;    /*P3C2 - without width declaration, margin auto has no effect */
+    width: 50%;   /* P3C2 - without width declaration, margin auto has no effect */
     margin: auto;    /*P3C2*/
 }
 
-.flex-nav-container,
-.flex-footer-container {
-    display: flex;                      /*P3C3*/
-    flex-direction: row;  /* Not required - default properties - just easier to read */
-    justify-content: space-between;     /*P3C3*/
-    align-items: center;
-}
-
-.flex-nav-container a{
-    margin-left: 30px;
-}
-
-.index-last_project {
-    background-color: white;
-    padding: 8Opx;
-}
-
-.index-last_project h2 {
-    color: #242424;
-    text-align: center;
-    margin-bottom: 80px;
-    font-weight: 550;
-}
-
-.index-last_project div {
-    display: flex;
-    flex-direction: row;  /* Not required - default properties - just easier to read */
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.index-introduction {
-    display: flex;    /*P3C3*/
-    flex-direction: row;  /* Not required - default properties - just easier to read */
-    width: 60%;
-    align-items: flex-start;
-    margin: auto;
-}
-
-.index-introduction .keywords { /*voir em en debut de fichier */
-    color: #A5B4FC;
-    font-style: normal;
-}
-
-.index-introduction h1 {
-    margin-bottom: 15px;    /*P3C3*/
-}
-
-.index-introduction p {
-    margin-bottom: 30px;    /*P3C3*/
-}
-
-.index-introduction div {
-    padding-right: 80px;    /*P3C3*/
-}
 
 .portfolio-section-photos{                            /* P3C4 */
     background-color: white;
