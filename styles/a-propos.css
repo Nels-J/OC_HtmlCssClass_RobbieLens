@@ -1,8 +1,22 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+.a-propos {
+    width: 50%;   /* P3C2 - without width declaration, margin auto has no effect */
+    margin: auto;    /*P3C2*/
+}
+
 .carre-contenu {
     padding: 50px;    /*P3C2*/
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
     margin-bottom: 80px;
+}
+
+.carre-contenu + div {
+    text-align: center;
 }
 
 .carre-contenu h2 {
@@ -13,11 +27,27 @@
     margin-top: 30px;    /*P3C2*/
 }
 
-.carre-contenu + div {
-    text-align: center;
+h2 {
+    margin-bottom: 50px;
 }
 
-.a-propos {
-    width: 50%;   /* P3C2 - without width declaration, margin auto has no effect */
-    margin: auto;    /*P3C2*/
+table {
+    font-size: 1.1em;
+    color: #F9F8FF;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid  #a5b4fc; /* auront une bordure de 1px */
+}
+
+th {
+    padding: 15px;
+}
+
+td {
+    padding: 40px;
 }
