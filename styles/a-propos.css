@@ -1,0 +1,23 @@
+.carre-contenu {
+    padding: 50px;    /*P3C2*/
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    margin-bottom: 80px;
+}
+
+.carre-contenu h2 {
+    margin-top: 30px;    /*P3C2*/
+}
+
+.carre-contenu ul {
+    margin-top: 30px;    /*P3C2*/
+}
+
+.carre-contenu + div {
+    text-align: center;
+}
+
+.a-propos {
+    width: 50%;   /* P3C2 - without width declaration, margin auto has no effect */
+    margin: auto;    /*P3C2*/
+}
