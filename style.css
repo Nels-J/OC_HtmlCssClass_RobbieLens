@@ -55,26 +55,37 @@ a:hover {
     background: linear-gradient(#696484, #8788BA);
 }
 
-/* .lien-icone {
+.icons {
     margin-left: 30px;
-} */
+}
 
 a.icons:hover {
     opacity: 0.5;
 }
 
 section {
-        padding: 80px;
+    padding: 80px;
+}
+
+.flex-nav-container,
+.flex-footer-container {
+    display: flex;
+    /* Not required - default properties - just easier to read */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-nav-container a {
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 996px) {
+    h1 {
+        font-size: 2em;
     }
 
-    .flex-nav-container,
-    .flex-footer-container {
-        display: flex;                      /*P3C3*/
-        flex-direction: row;  /* Not required - default properties - just easier to read */
-        justify-content: space-between;     /*P3C3*/
-        align-items: center;
+    .flex-nav-container {
+        flex-direction: column;
     }
-    
-    .flex-nav-container a{
-        margin-left: 30px;
-    }
+}
