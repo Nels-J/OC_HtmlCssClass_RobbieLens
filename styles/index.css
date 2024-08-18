@@ -92,5 +92,30 @@ input[type='submit'] {
 }
 
 @media screen and (max-width: 996px) {
-    /*ICI*/
+
+    .index-introduction {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .index-introduction div {
+        order: 1;
+    }
+
+    .index-introduction img {
+        order: 0;
+    }
+
+    .index-last_project {
+        padding: 2Opx;
+    }
+
+    .index-last_project div {
+        flex-direction: column;
+    }
+
+    .form-name_email {
+        flex-direction: column;
+    }
+
 }
