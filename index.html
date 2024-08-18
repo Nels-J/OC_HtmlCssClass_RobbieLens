@@ -38,7 +38,7 @@
                     chaque instant.
                 </p>
 
-                <a href="#Contact" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+                <a href="#Contact_Me" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
             </div>
 
             <img src="images/robbie-lens.png" alt="Portrait de Robbie LENS"
@@ -68,17 +68,24 @@
             </div>
         </section>
 
-        <section class="index-form">
+        <section id="Contact_Me" class="index-form"> <!--P4C2-->
 
             <h2>Parlons de votre projet</h2>
 
-            <form action="" method="get">
-                <div>
-                    <label for="name">Nom</label>
-                    <input type="text" name="name" id="name">
+            <form method="get">
 
-                    <label for="email">Courriel</label>
-                    <input type="email" name="email" id="email" required>
+                <div class="form-name_email">
+
+                    <div class="form-couple_label_input">
+                        <label for="name">Nom</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+
+                    <div class="form-couple_label_input">
+                        <label for="email">Courriel</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    
                 </div>
 
                 <label for="message">Votre message :</label>

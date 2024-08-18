@@ -12,8 +12,8 @@
 
 .index-last_project div {
     display: flex;
-    flex-direction: row;
     /* Not required - default properties - just easier to read */
+    flex-direction: row;
     justify-content: center;
     gap: 15px;
     margin-bottom: 15px;
@@ -21,10 +21,9 @@
 
 .index-introduction {
     display: flex;
-    /*P3C3*/
-    flex-direction: row;
     /* Not required - default properties - just easier to read */
-    width: 60%;
+    flex-direction: row;
+    max-width: 1000px;
     align-items: flex-start;
     margin: auto;
 }
@@ -58,18 +57,23 @@
 form {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    max-width: 1000px;
     margin: auto;
-    gap: 15px;
     color: white;
-    border: 1px solid red;
 }
 
-input[type='submit'] {
-    width: 200px;
-    margin: auto;
-    margin-top: 30px;
-    font-size: 1em;
+.form-name_email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-couple_label_input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /*Not shrink the element and take all space available in the container*/
+    flex: 1;
 }
 
 input,
@@ -78,4 +82,11 @@ textarea {
     margin-bottom: 20px;
     border-radius: 3px;
     border: none;
+}
+
+input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1em;
 }
