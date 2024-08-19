@@ -81,8 +81,10 @@ section {
 }
 
 @media screen and (max-width: 996px) {
-    h1 {
-        font-size: 2em;
+
+    header,
+    footer {
+        padding: 20px 20px;
     }
 
     .flex-nav-container {
@@ -93,12 +95,16 @@ section {
         margin-bottom: 20px;
     }
 
-    header,
-    footer {
-        padding: 20px 20px;
+    .flex-nav-container a {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     section {
         padding: 50px 20px;
+    }
+
+    h1 {
+        font-size: 2em;
     }
 }
