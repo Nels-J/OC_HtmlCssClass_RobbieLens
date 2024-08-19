@@ -17,7 +17,7 @@
 .grid-portraits {                            /* P3C4 */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px;
+    grid-template-rows: 300px 300px 300px;
     gap: 15px; /* https://developer.mozilla.org/fr/docs/Web/CSS/gap  */
 }
 
@@ -49,4 +49,20 @@
 
 .image-link:hover .image-hover {
     display: flex;
+}
+
+@media screen and (max-width: 996px) {
+    .grid-paysages,
+    .grid-portraits {
+        grid-template-columns: 1fr;
+        gap: 15px; /* https://developer.mozilla.org/fr/docs/Web/CSS/gap  */
+    }
+
+    .grid-paysages img {
+        max-height: 300px;
+    }
+    
+    .grid-portraits img{
+        max-height: 500px;
+    }
 }
