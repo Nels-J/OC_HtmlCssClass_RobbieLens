@@ -79,9 +79,12 @@ form {
 input,
 textarea {
     padding: 15px;
-    margin-bottom: 20px;
     border-radius: 3px;
     border: none;
+}
+
+label {
+    margin-bottom: 10px;
 }
 
 input[type='submit'] {
@@ -96,16 +99,19 @@ input[type='submit'] {
     .index-introduction {
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        justify-content: center;
     }
-    
+
     .index-introduction div {
         order: 1;
         padding-right: 0px;
+        text-align: center;
     }
 
     .index-introduction img {
         order: 0;
+        margin-bottom: 20px;
+        width: 100%;
     }
 
     .index-last_project {
@@ -116,8 +122,12 @@ input[type='submit'] {
         flex-direction: column;
     }
 
-    .form-name_email {
-        flex-direction: column;
+    .index-form {
+        padding: 50px 20px;
     }
 
+    .form-name_email {
+        flex-direction: column;
+        gap: 0;
+    }
 }
